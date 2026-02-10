@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Md. Kaif Nasir – Minimal Engineering Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Md. Kaif Nasir – Engineering Portfolio</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -17,9 +17,7 @@
       darkMode: 'class',
       theme: {
         extend: {
-          fontFamily: {
-            sans: ['Inter', 'sans-serif']
-          },
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
           colors: {
             accent: '#0071e3',
             surface: '#121212'
@@ -30,7 +28,7 @@
   </script>
 </head>
 
-<body class="bg-black text-neutral-400 font-sans antialiased selection:bg-accent selection:text-white">
+<body class="bg-black text-neutral-400 font-sans antialiased">
 
 <!-- NAV -->
 <nav class="sticky top-0 z-50 bg-black/90 border-b border-neutral-900 backdrop-blur">
@@ -43,7 +41,7 @@
       <a href="#about" class="text-sm text-neutral-500 hover:text-white">About</a>
       <a href="#skills" class="text-sm text-neutral-500 hover:text-white">Engineering</a>
       <a href="#projects" class="text-sm text-neutral-500 hover:text-white">Work</a>
-      <a href="#contact" class="px-5 py-2 rounded-full bg-white text-black text-sm font-medium">Get in touch</a>
+      <a href="#contact" class="px-5 py-2 rounded-full bg-white text-black text-sm font-medium">Contact</a>
     </div>
   </div>
 </nav>
@@ -62,55 +60,120 @@
       </h1>
 
       <p class="text-xl text-neutral-400 max-w-xl mb-10">
-        Senior Full-Stack Developer specializing in high-performance backends and refined educational ecosystems.
+        Full-Stack Developer specializing in PHP, MySQL, WordPress, and
+        production-ready educational platforms.
       </p>
 
       <div class="flex gap-4">
-        <a href="#projects" class="px-8 py-3 rounded-full bg-white text-black text-sm font-medium">
-          View cases
-        </a>
-        <a href="#contact" class="px-8 py-3 rounded-full bg-neutral-800 text-neutral-200 text-sm font-medium">
-          Contact
-        </a>
+        <a href="#projects" class="px-8 py-3 rounded-full bg-white text-black text-sm font-medium">View work</a>
+        <a href="#contact" class="px-8 py-3 rounded-full bg-neutral-800 text-neutral-200 text-sm font-medium">Contact</a>
       </div>
     </div>
 
     <div class="lg:col-span-5 flex justify-end">
       <div class="w-[380px] aspect-[4/5] bg-[#121212] rounded-3xl overflow-hidden shadow-2xl border border-neutral-900">
-        <img
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMEb1EGZDiiW1HzyViOa27T_Ink7naRr2hmau4Crx4YmNoDwM6qzmSUcFdak1Xzaf9duxm5cOX_UYZTz31kE1jEIRI1tjIMEU8PcELvbPHce30BmarLmBPDDjlPauSU8MfC0dWd6wpQujMkRI44T6AZZRAef5gBw9PJrGERB4Age2e_uTApjxdBp3AZbtOYXWEadUmm0qedbDgj5l2wV4xW44U6LRps-hb2vTk89TY37qSfdw84Qb0SBhHlFxFZ9H-NaziyFtfXRE"
-          alt="Md. Kaif Nasir"
-          class="w-full h-full object-cover grayscale brightness-110"
-        />
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMEb1EGZDiiW1HzyViOa27T_Ink7naRr2hmau4Crx4YmNoDwM6qzmSUcFdak1Xzaf9duxm5cOX_UYZTz31kE1jEIRI1tjIMEU8PcELvbPHce30BmarLmBPDDjlPauSU8MfC0dWd6wpQujMkRI44T6AZZRAef5gBw9PJrGERB4Age2e_uTApjxdBp3AZbtOYXWEadUmm0qedbDgj5l2wV4xW44U6LRps-hb2vTk89TY37qSfdw84Qb0SBhHlFxFZ9H-NaziyFtfXRE"
+             alt="Md. Kaif Nasir"
+             class="w-full h-full object-cover grayscale brightness-110"/>
       </div>
     </div>
   </div>
 </header>
 
+<!-- WHAT I BUILD -->
+<section class="py-24">
+  <div class="max-w-6xl mx-auto px-6">
+    <p class="text-[10px] uppercase tracking-widest text-neutral-500 mb-6">Capabilities</p>
+    <h2 class="text-3xl font-semibold text-white mb-12">What I build.</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-[#121212] rounded-3xl p-8 border border-neutral-900">
+        <h3 class="text-white font-medium mb-3">Educational Platforms</h3>
+        <p class="text-neutral-400 text-sm">
+          Attendance systems, result portals, job applications, dashboards for institutions.
+        </p>
+      </div>
+      <div class="bg-[#121212] rounded-3xl p-8 border border-neutral-900">
+        <h3 class="text-white font-medium mb-3">Backend Architecture</h3>
+        <p class="text-neutral-400 text-sm">
+          Secure PHP systems with optimized MySQL databases and role-based access.
+        </p>
+      </div>
+      <div class="bg-[#121212] rounded-3xl p-8 border border-neutral-900">
+        <h3 class="text-white font-medium mb-3">Workflow Automation</h3>
+        <p class="text-neutral-400 text-sm">
+          Custom CRMs, ERPs, admin panels replacing manual operations.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- TECH STACK -->
-<section class="py-20 border-y border-neutral-900 bg-[#121212]/30">
+<section class="py-24 border-y border-neutral-900 bg-[#121212]/30" id="skills">
   <div class="max-w-6xl mx-auto px-6">
     <p class="text-center text-[10px] uppercase tracking-widest text-neutral-500 mb-12">
       Core Technology Stack
     </p>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+      <div class="bg-[#121212] rounded-2xl p-6 text-[#777BB4] font-bold">PHP</div>
+      <div class="bg-[#121212] rounded-2xl p-6 text-[#00758F] font-bold">MySQL</div>
+      <div class="bg-[#121212] rounded-2xl p-6 text-[#F7DF1E] font-bold">JavaScript</div>
+      <div class="bg-[#121212] rounded-2xl p-6 text-[#21759B] font-bold">WordPress</div>
+      <div class="bg-[#121212] rounded-2xl p-6 text-[#7952B3] font-bold">Bootstrap</div>
+    </div>
+  </div>
+</section>
 
-    <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
-      <div class="bg-[#121212] rounded-2xl p-6 text-center shadow hover:-translate-y-1 transition">
-        <span class="text-[#777BB4] font-bold">PHP</span>
+<!-- PROJECTS -->
+<section class="py-32" id="projects">
+  <div class="max-w-6xl mx-auto px-6">
+    <p class="text-[10px] uppercase tracking-widest text-neutral-500 mb-6">Projects</p>
+    <h2 class="text-3xl font-semibold text-white mb-16">Selected work.</h2>
+
+    <div class="grid md:grid-cols-2 gap-10">
+      <!-- Card -->
+      <div class="bg-[#121212] rounded-3xl overflow-hidden border border-neutral-900">
+        <img class="w-full aspect-video object-cover opacity-80"
+             src="https://lh3.googleusercontent.com/aida-public/AB6AXuAp6-R8uFndMw_H88e2NGYTjjsgso6lyJM1vhc7I7N8l0IpfvGSwDF-xQ6FoB-z68VoJC7ap7ugaM93zb7fpjrtF4haozbIQWmMW2Rhu8Zkgta_QIDhQiXRcop69nTud5NBE3jTW_VZOLSnuRagWocSR3bl4B1530giwfDT6yymQHQ5eeygNmHYD_I29YBI3SBCOpL-FiQ28tAmmLiWuKT_lD2HoPzd928mDQwT3zDL0H-kdtFiNdE4t0N87H61SeqmktpbjXxH2ao"/>
+        <div class="p-8">
+          <h3 class="text-white font-semibold mb-2">Attendance Management System</h3>
+          <p class="text-neutral-500 text-sm">
+            Role-based attendance tracking platform for educational institutions.
+          </p>
+        </div>
       </div>
-      <div class="bg-[#121212] rounded-2xl p-6 text-center shadow hover:-translate-y-1 transition">
-        <span class="text-[#00758F] font-bold">MySQL</span>
-      </div>
-      <div class="bg-[#121212] rounded-2xl p-6 text-center shadow hover:-translate-y-1 transition">
-        <span class="text-[#F7DF1E] font-bold">JavaScript</span>
-      </div>
-      <div class="bg-[#121212] rounded-2xl p-6 text-center shadow hover:-translate-y-1 transition">
-        <span class="text-[#21759B] font-bold">WordPress</span>
-      </div>
-      <div class="bg-[#121212] rounded-2xl p-6 text-center shadow hover:-translate-y-1 transition">
-        <span class="text-[#7952B3] font-bold">Bootstrap</span>
+
+      <div class="bg-[#121212] rounded-3xl overflow-hidden border border-neutral-900">
+        <img class="w-full aspect-video object-cover opacity-80"
+             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrSYK5r-FYRE7jHxP4P2zryaoTPsylme8hHeCUIAQrybG8-zl-D7E2742Mz7hBKw3rNftJyF4IiEVB4nXhneCMonxpHMbf2eNWhoh-e9BoImd1uz_HOdz9QRm5E1-OlYW-m__oJ0IVoVJ0m5TQZuK-THTy0yiqa4ZwBhtwdFn1gkhNlrFjUIXwQ9IwWZ2R-tFK4XIsMBqFYERZgJ-cEdmbWivCC2pPF4LRd8WsFcJaD0CU2YRBLLUkmVnw_0ImAQiqo9gdRxyYkac"/>
+        <div class="p-8">
+          <h3 class="text-white font-semibold mb-2">Job Application Portal</h3>
+          <p class="text-neutral-500 text-sm">
+            Multi-step teaching & non-teaching recruitment system with admin review.
+          </p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="py-32 bg-[#121212]/40" id="contact">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+    <div>
+      <h2 class="text-4xl font-bold text-white mb-6">Let’s work together.</h2>
+      <p class="text-neutral-400 text-lg">
+        Open to full-stack roles, freelance projects, and institutional systems.
+      </p>
+    </div>
+
+    <form class="bg-[#121212] p-8 rounded-3xl border border-neutral-900 space-y-6">
+      <input class="w-full bg-neutral-900 rounded-xl px-4 py-3 text-neutral-200 text-sm" placeholder="Your name">
+      <input class="w-full bg-neutral-900 rounded-xl px-4 py-3 text-neutral-200 text-sm" placeholder="Email">
+      <textarea class="w-full bg-neutral-900 rounded-xl px-4 py-3 text-neutral-200 text-sm" rows="4" placeholder="Project details"></textarea>
+      <button class="w-full py-3 rounded-full bg-white text-black font-medium text-sm">Send message</button>
+    </form>
   </div>
 </section>
 
@@ -120,11 +183,9 @@
     <span class="text-[10px] uppercase tracking-widest text-neutral-500">
       © 2024 Md. Kaif Nasir
     </span>
-    <div class="flex gap-8 text-xs text-neutral-500">
-      <a href="#" class="hover:text-white">LinkedIn</a>
-      <a href="#" class="hover:text-white">GitHub</a>
-      <a href="#" class="hover:text-white">Twitter</a>
-    </div>
+    <span class="text-xs text-neutral-500">
+      Designed & built with clarity, performance, and longevity.
+    </span>
   </div>
 </footer>
 
